@@ -4,7 +4,7 @@
 #
 Name     : cantarell-fonts
 Version  : 0.0.25
-Release  : 1
+Release  : 2
 URL      : https://download.gnome.org/sources/cantarell-fonts/0.0/cantarell-fonts-0.0.25.tar.xz
 Source0  : https://download.gnome.org/sources/cantarell-fonts/0.0/cantarell-fonts-0.0.25.tar.xz
 Summary  : No detailed summary available
