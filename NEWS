@@ -1,12 +1,41 @@
+0.111
+ - Fix the wrongly assigned OS/2 weight class values that e.g. led to Extra Bold
+   being selected when Bold was requested.
+
+0.110
+ - Space everything a little bit tighter.
+ - Scale down whiteCircle and blackCircle by 50%, makes password dots smaller.
+ - Tweak feet of one.lf slightly for a more even appearance.
+ - Revise lcaron, dcaron and tcaron for collision-free rendering even at bold 
+   weight. Will need kerning later. 
+ - Add draft of Cyrillic (GF Cyrillic Plus set), to be improved.
+ - Equalize advance width of period, comma, colon, semicolon.
+ - Build packages with prebuilt fonts baked in.
+ - New contributed AppStream metadata translations for Slovak (Dušan Kazik),
+   Slovenian (Matej Urbančič), Russian (Stas Solovey) and Chinese China
+   (Dingzhong Chen).
+
+0.101
+ - Countless detail updates to various glyphs
+ - Added contributed AppStream metdata translations for Polish (Piotr Drąg),
+   French (Claude Paroz), Indonesian (Kukuh Syafaat), Galician (Fran Dieguez),
+   Occitan (Cédric Valmary), Chinese Taiwan (Cheng-Chia Tseng), Spanish (Daniel
+   Mustieles), Catalan (Adolfo Jayme), Croatian (gogo), German (Tim Sabsch),
+   Dutch (Nathan Follens), Turkish (Emin Tufan Çetin), Serbian (Марко Костић),
+   Serbian Latin (Marko Kostić), Hungarian (Gabor Kelemen), Korean (DaeHyun
+   Sung), Czech (Marek Černocký), Lithuanian (Aurimas Černius), Danish (Ask
+   Hjorth Larsen), Italian (Gianvito Cavasoli), Romanian (Daniel Șerbănescu),
+   Punjabi (A S Alam), Latvian (Rūdolfs Mazurs), Swedish (Anders Jonsson),
+   Icelandic (Sveinn í Felli), Greek (Efstathios Iosifidis)
+
+0.100
+ - Redesigned from scratch to interpolate cleanly from thin to extra bold.
+   Currently targets the Google Fonts Latin Core and Pro glyph sets.
+ - Added contributed AppStream metdata translations for Brazilian Portugese
+   (Rafael Fontenelle), Friulian (Fabio Tomat) and Finnish (Jiri Grönroos).
+
 0.0.25
- - outline and spacing on C,G. 
- - improved terminals on numerous glyphs
- - weight/stem width fixes (k,G)
- - port imrpovements from regular to bold
- - improved metrics
- - fixes to f-ligatures
- - shape fixes to some numerals
- - fixes to anchors > composited glyphs
+ - Can't remember.
 
 0.0.24
  - asymmetric k for bold, fix stem width

@@ -1,0 +1,8 @@
+option('fontsdir', type : 'string',
+       description : 'The directory the fonts should be copied to.')
+
+option('useprebuilt', type : 'boolean', value : true,
+       description : 'Use pre-built font binaries in "prebuilt/" instead of buiding from source')
+
+option('buildappstream', type : 'boolean', value : true,
+       description : 'Build Appstream metadata file')

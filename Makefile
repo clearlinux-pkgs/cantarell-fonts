@@ -1,5 +1,5 @@
 PKG_NAME := cantarell-fonts
-URL = https://download.gnome.org/sources/cantarell-fonts/0.0/cantarell-fonts-0.0.25.tar.xz
+URL = https://download.gnome.org/sources/cantarell-fonts/0.111/cantarell-fonts-0.111.tar.xz
 ARCHIVES = 
 
 include ../common/Makefile.common
