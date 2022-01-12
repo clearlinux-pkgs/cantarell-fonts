@@ -4,7 +4,7 @@
 #
 Name     : cantarell-fonts
 Version  : 0.301
-Release  : 8
+Release  : 9
 URL      : https://download.gnome.org/sources/cantarell-fonts/0.301/cantarell-fonts-0.301.tar.xz
 Source0  : https://download.gnome.org/sources/cantarell-fonts/0.301/cantarell-fonts-0.301.tar.xz
 Summary  : No detailed summary available
@@ -12,21 +12,16 @@ Group    : Development/Tools
 License  : OFL-1.1
 Requires: cantarell-fonts-data = %{version}-%{release}
 Requires: cantarell-fonts-license = %{version}-%{release}
-Requires: appdirs
-Requires: attrs
-Requires: fs
-Requires: lxml
-Requires: pytz
-Requires: six
-BuildRequires : appdirs
 BuildRequires : appstream-glib
-BuildRequires : attrs
 BuildRequires : buildreq-gnome
 BuildRequires : buildreq-meson
-BuildRequires : fs
-BuildRequires : lxml
-BuildRequires : pytz
-BuildRequires : six
+BuildRequires : pypi(appdirs)
+BuildRequires : pypi(attrs)
+BuildRequires : pypi(booleanoperations)
+BuildRequires : pypi(cffsubr)
+BuildRequires : pypi(compreffor)
+BuildRequires : pypi(cu2qu)
+BuildRequires : pypi(fontmath)
 
 %description
 Cantarell
@@ -58,7 +53,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1611706894
+export SOURCE_DATE_EPOCH=1642011396
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
