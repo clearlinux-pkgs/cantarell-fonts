@@ -1,3 +1,19 @@
+0.303:
+- Actually update the version number in the fonts. D'oh.
+
+0.302:
+- Maintenance release: Make the variable font the default, only build statics
+  on demand. Also build two packages with variable and static fonts. Packagers
+  can chose the statics package if they run into problems with the variable font,
+  but you should probably not install both at the same time.
+- Amended OS/2 super- and subscript values so that new Pango can use them properly.
+- Update production names for Jacute, bulletoperator, commercialMinusSign,
+  divisionslash, notidentical, ringcomb_acutecomb and ringcomb_acutecomb.case.
+- New appstream translations:
+  - Belarusian by Alexey Razumov
+  - Updated Portuguese by Hugo Carvalho
+  - Bulgarian by Alexander Shopov
+
 0.301:
 - Oopsie-release: The last one was missing PostScript names for the new glyphs.
   Only relevant for when extracting text from PDFs where the generator omitted
